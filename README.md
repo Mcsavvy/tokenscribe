@@ -1,6 +1,6 @@
 # TokenScribe: Decentralized E-Book Publishing Platform
 
-A decentralized platform for transparent and fair e-book publishing using the Stacks blockchain.
+A decentralized platform for transparent and fair e-book publishing using the Stacks blockchain. The project aims to address key issues in the traditional publishing industry, such as lack of transparency, unfair royalty distribution, and challenges with ownership and rights management.
 
 ## Project Overview
 
@@ -32,7 +32,7 @@ The contract also maintains a `next-book-id` variable to track the next availabl
 
 ### Public Functions
 
-The contract provides the following public functions:
+The contract provides the following key public functions:
 
 1. **`register-book`**: Allows users to register new books with the specified metadata. It ensures that a book with the same details does not already exist.
 2. **`transfer-book-ownership`**: Allows the current owner of a book to transfer ownership to a new principal.
